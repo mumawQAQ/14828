@@ -9,6 +9,10 @@
 // @match        *://*/*
 // ==/UserScript==
 
+/**
+ * You can copy this script to your tampermonkey and run it on any website
+ */
+
 let $ = window.jQuery;
 
 (function () {
