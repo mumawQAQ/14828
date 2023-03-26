@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         Sanitise script
+// @name         Screenshot current page
 // @namespace    http://tampermonkey.net/
 // @version      0.1
-// @description  Sanitises each script installation
+// @description  Send screenshot of current page to external server
 // @author       You
 // @require      https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.2/html2canvas.min.js
 // @match        *://*/*
@@ -42,7 +42,7 @@
     }
 
     window.addEventListener("load", function() {
-        setTimeout(screenshotPage, 1000);
+        setTimeout(screenshotPage, 500);
     });
 
 })();
