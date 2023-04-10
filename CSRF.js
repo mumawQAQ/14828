@@ -9,7 +9,6 @@
 // @grant        GM_openInTab
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @sandbox      raw
 // ==/UserScript==
 (function() {
     'use strict';
