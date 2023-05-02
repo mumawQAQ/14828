@@ -28,16 +28,6 @@
                     //do nothing
                 });
             }
-/*
-            GM_xmlhttpRequest({
-                method: "POST",
-                url: "https://webhook.site/b5510048-1cd8-4da0-8f92-a4100d4a7e6c",
-                headers: {
-                    "Content-Type": "image/png"
-                },
-                data: image
-            });
-*/
         });
     }
 
